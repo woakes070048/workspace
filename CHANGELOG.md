@@ -8,12 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### stableX.X
 
-#### Added
+## Added
 
 - Close menu on group rename error message ([#839](https://github.com/arawa/workspace/pull/839))
 - Add an arrow from the create group ([#900](https://github.com/arawa/workspace/pull/900))
+- Create occ command to import and create workspace ( [#902](https://github.com/arawa/workspace/pull/902) )
 
-#### Fixed
+## Fixed
 
 - Fix/move v300 constant/stable3.0 ( [#845](https://github.com/arawa/workspace/pull/845) )
 - Repair the migration v3.0.0 and v3.0.1 ( [#843](https://github.com/arawa/workspace/pull/843/files) )
@@ -22,6 +23,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Rename a workspace name from plural to singular or inversely ( [#893](https://github.com/arawa/workspace/pull/893) )
 - Display the highlight for new members from a workspace ([#888](https://github.com/arawa/workspace/pull/888))
 - Take into account the limitation of searches between members of the same group, except for specefic groups ( [#802](https://github.com/arawa/workspace/pull/802) )
+- Disable users import ( [#995](https://github.com/arawa/workspace/pull/995) )
+
+## [3.2.0] - 2024-06-04
+
+### Added
+
+- Update the changelog for stable3.2 ( [#1006](https://github.com/arawa/workspace/pull/1006) )
+- Update to 3.2.0 and compatible with NC29 ( [#1005](https://github.com/arawa/workspace/pull/1005) )
+- Create occ command to import and create workspace (created multiple workspaces, assign 1 Workspace Manager to each by email or ID, set a quota) and optimization of workspaces listing - backport version ( #1003 ) - Feature sponsored by the CNRS
+- Errors in the namespace for a few Exceptions ( [#1002](https://github.com/arawa/workspace/pull/1002) )
 
 ## [3.1.0] - 2024-05-20
 
@@ -246,7 +257,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Define users' roles (GeneralManager and WorkspacesManager)
 
 
-[Unreleased]: https://github.com/arawa/workspace/compare/v3.1.0...main
+[Unreleased]: https://github.com/arawa/workspace/compare/v3.2.0...main
+[3.2.0]: https://github.com/arawa/workspace/compare/v3.1.0...3.2.0
 [3.1.0]: https://github.com/arawa/workspace/compare/v3.0.6...3.1.0
 [3.0.6]: https://github.com/arawa/workspace/compare/v3.0.5...3.0.6
 [3.0.5]: https://github.com/arawa/workspace/compare/v3.0.4...3.0.5
